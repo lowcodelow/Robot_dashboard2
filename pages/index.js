@@ -1,10 +1,10 @@
-import RobotDashboard from '../components/RobotDashboard';
+import GrafanaStyleDashboard from '../components/GrafanaStyleDashboard';
 
-    export default function Home() {
-      return (
-        <div>
-          <h1>Robot Dashboard</h1>
-          <RobotDashboard />
-        </div>
-      );
-    }
+export default function Home() {
+  return (
+    <div>
+      <h1>Grafana Style Dashboard</h1>
+      <GrafanaStyleDashboard />
+    </div>
+  );
+}
